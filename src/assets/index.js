@@ -1,4 +1,4 @@
-import logo from "./arr.svg";
+
 import aarti from "./photo2.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -23,31 +23,24 @@ import hf from "./hf.svg";
 import bny from "./bny.png";
 import clg from "./clg.png";
 import school from "./school.png";
+import schoolll from "./schoolll.png";
 
-import crypto from "./project/crypto.jpg";
-import oop from "./project/oop.png";
-import crud from "./project/crud.jpg";
-import dwld from "./project/dwld.jpg";
-import onetomany from "./project/onetomany.jpg";
-import yml from "./project/yml.png";
+import arr from "./arr.png";
 
-import trie from "./project/trie.jpg";
-import ds from "./project/ds.jpg";
-import cg from "./project/cg.jpg";
+
+
+
+
+
+
 
 import port_3d from "./project/react.png";
-import jsp from "./project/jsp.png";
-import notes from "./project/notes.png";
-import chitchat from "./project/chitChat.png";
-import react1 from "./project/react1.png";
 
-import be from "./project/mcq.avif";
-import sql from "./project/sql.jpg";
-import mini from "./project/library.png";
-import snl from "./project/snl.jpeg";
+
+
 
 export {
-  logo,
+
   backend,
   creator,
   mobile,
@@ -67,10 +60,12 @@ export {
   demo,
   clg,
   school,
-  crypto,
+  schoolll,
+  arr,
+
   aarti,
-  oop,crud,dwld,onetomany,yml,
-  trie,ds,cg,
-  port_3d, jsp, chitchat, notes, react1,
-  be,sql, mini, snl,
+
+
+  port_3d, 
+    
 };

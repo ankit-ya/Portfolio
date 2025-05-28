@@ -7,7 +7,7 @@ import { demo } from "../assets";
 import { SectionWrapper } from "../hoc";
 import {list} from "../constants"
 import { fadeIn, textVariant } from "../utils/motion";
-import { cProject, javaProject, webProject, otherProject } from "../constants";
+import { javaProject, webProject, otherProject } from "../constants";
 import ProjectList from "./ProjectList";
 import "./Project.scss";
 

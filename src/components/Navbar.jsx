@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
-import { logo} from "../assets";
+import { arr } from "../assets"; // if you place arr.png in /src/assets/
+
 import "./Navbar.scss";
 
 const Navbar = () => {
@@ -41,9 +42,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain logo' />
+          <img src={arr} alt='logo' className='w-9 h-9 object-contain logo' />
           <p className='sm:block text-white text-[18px] font-bold cursor-pointer flex '>
-          aarti.rathi
+          Ankit Yadav
           </p>
         </Link>
 
@@ -52,7 +53,7 @@ const Navbar = () => {
               className={`top2 ${"text-secondary"
               } hover:text-white text-[15px] font-medium cursor-pointer`}
             >
-              <a href="https://drive.google.com/drive/folders/13YGuvdkXQdyFzfuJd3YdUaG99dhCPz22?pli=1" target="_blank">Resume</a>
+              <a href="https://drive.google.com/file/d/1NNGN0qYdiliJrjrm-jsru9x9npL3tbZr/view?usp=drivesdk" target="_blank">Resume</a>
           </div>
         </div>
       </div>

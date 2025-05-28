@@ -36,7 +36,7 @@ const Contact = () => {
     const formData = new FormData(event.target);
     setLoading(true);
 
-    formData.append("access_key", "5f5b91cf-2fc6-4dc3-9cd2-dc8838e33f09");
+    formData.append("access_key", "bafa14f2-b9b1-4bbd-9379-f35f80b13614");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -178,12 +178,12 @@ const Contact = () => {
         <div className="mt-5 contact__options">
           <article className="contact__option">
             <MdEmail />
-            <a href="mailto:aarti.rathi1710@gmail.com" target="_blank" className="blue-text-gradient">aarti.rathi1710@gmail.com</a>
+            <a href="mailto:ankit3001yadav@gmail.com" target="_blank" className="blue-text-gradient">ankit3001yadav@gmail.com</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp />
-            <a href="https://api.whatsapp.com/send/?phone=917040031669&text&app_absent=0&lang=en" target="_blank" className="blue-text-gradient">
-              +91 7040031669
+            <a href="https://api.whatsapp.com/send/?phone=917678342702&text&app_absent=0&lang=en" target="_blank" className="blue-text-gradient">
+              +91 7678342702
             </a>
           </article>
         </div>
