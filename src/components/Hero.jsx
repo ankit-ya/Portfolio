@@ -51,10 +51,7 @@ const Hero = () => {
           href="https://www.instagram.com/ankit411yadav" target="_blank">
           <AiOutlineInstagram />
         </a>
-        <a
-          href="https://linktr.ee/rathi17" target="_blank">
-          <BiLinkAlt />
-        </a>
+       
 
       </div>
 
