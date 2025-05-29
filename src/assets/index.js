@@ -26,6 +26,7 @@ import bny from "./bny.png";
 import clg from "./clg.png";
 import school from "./school.png";
 import schoolll from "./schoolll.png";
+import smart from "./smart.png";
 
 import arr from "./arr.png";
 import org from "./org.jpg";
@@ -64,6 +65,7 @@ export {
   bny,
   demo,
   clg,
+  smart,
   school,
   schoolll,
   arr,

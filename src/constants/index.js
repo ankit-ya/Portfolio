@@ -1,7 +1,5 @@
 import {
-    javascript,html,css,reactjs,tailwind,nodejs,mongodb,git,threejs,DailyEarn,NewsPortal,org,
-
-    clg,school,schoolll,
+    javascript,html,css,reactjs,tailwind,nodejs,mongodb,git,threejs,DailyEarn,NewsPortal,org,smart,    clg,school,schoolll,
  
     port_3d, 
   } from "../assets";
@@ -191,28 +189,34 @@ import {
   ];
   
   export const otherProject = [
-    {
-      name: "Multilingual Multiple Choice Question Generation",
-      description:
-        "Final Year Project : Its a low level and high level model where we automate the process of creating objective question assessment using LSTM(at low level) and Transformer(at high level) models for multiple languages.",
-      tags: [
-        {
-          name: "machine learning",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "multilingual",
-          color: "green-text-gradient",
-        },
-        {
-          name: "BE_Project",
-          color: "pink-text-gradient",
-        },
-      ],
    
-      source_link: "https://drive.google.com/drive/folders/1LECu5ENk_zsowbPeRN_R1V8Rf2Gp7N6l",
-      source_code_link: "https://github.com/shinchancode/Final-Year-Project",
+   {
+  name: "Smart Study Buddy",
+  description:
+    "A full-stack web application that helps students manage quizzes, groups, and real-time study sessions with Socket.IO support. The frontend is built with React and Vite, while the backend is powered by Express and MongoDB. Deployed on Vercel and Render.",
+  tags: [
+    {
+      name: "fullstack",
+      color: "blue-text-gradient",
     },
+    {
+      name: "react",
+      color: "green-text-gradient",
+    },
+    {
+      name: "express",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "socket.io",
+      color: "yellow-text-gradient",
+    },
+  ],
+  image: smart,
+  source_link: "https://smart-study-buddy.vercel.app/",
+  source_code_link: "https://github.com/ankit-ya/Smart-Study-Buddy",
+}
+
 
   
     
