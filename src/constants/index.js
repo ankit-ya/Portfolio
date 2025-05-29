@@ -1,5 +1,5 @@
 import {
-    javascript,html,css,reactjs,tailwind,nodejs,mongodb,git,threejs,
+    javascript,html,css,reactjs,tailwind,nodejs,mongodb,git,threejs,DailyEarn,NewsPortal,org,
 
     clg,school,schoolll,
  
@@ -85,28 +85,31 @@ import {
   ];
 
   export const javaProject = [
+   
     {
-      name: "Cryptography",
-      description:
-        "The project is based on a cryptography technique that uses Double layer encryption and decryption using Armstrong numbers and RGB color-based mappings for various types of file format. The idea is inspired from a research paper.",
-      tags: [
-        {
-          name: "cryptography",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "security",
-          color: "green-text-gradient",
-        },
-        {
-          name: "java",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: crypto,
-      source_link: "https://github.com/shinchancode/Cryptography",
-      source_code_link: "https://github.com/shinchancode/Cryptography",
+  name: "Organizational Chart Backend",
+  description:
+    "Developed a backend service using Java Spring Boot to support a dynamic organizational chart system. Features include employee invite flows, role hierarchies, and profile management through secure RESTful APIs.",
+  tags: [
+    {
+      name: "Java",
+      color: "blue-text-gradient",
     },
+    {
+      name: "Spring Boot",
+      color: "green-text-gradient",
+    },
+    {
+      name: "REST API",
+      color: "pink-text-gradient",
+    },
+  ],
+    image: org,
+  // Replace with your actual image import
+  // Add deployed link if API is hosted
+  source_code_link: "https://github.com/ankit-ya/DemoWorked/tree/demo-worked/Demo",
+}
+
     
   ];
   
@@ -132,10 +135,59 @@ import {
         },
       ],
       image: port_3d,
-      source_link: "https://shinchancode.github.io/3d-react-portfolio/",
-      source_code_link: "https://github.com/shinchancode/3d-react-portfolio",
+      source_link: "https://ankit-ya.github.io/Portfolio/",
+      source_code_link: "https://github.com/ankit-ya/Portfolio",
     },
-    
+    {
+  name: "Daily Earn",
+  description:
+    "Built a MERN stack web application for tracking daily earnings, with features like user authentication task management.Admin and User Dashboard Present . Deployed with a modern UI and responsive design for optimal user experience.",
+  tags: [
+    {
+      name: "MongoDB",
+      color: "green-text-gradient",
+    },
+    {
+      name: "ExpressJS",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "ReactJS",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "NodeJS",
+      color: "yellow-text-gradient",
+    },
+  ],
+  image: DailyEarn, // Replace with your actual image import
+  source_link: "https://daily-earn-s7mh.vercel.app/",
+  source_code_link: "https://github.com/ankit-ya/Daily-Earn",
+},
+{
+  name: "NewsPortal",
+  description:
+    "Developed a responsive News Portal web application using React and NewsAPI. Users can browse the latest news articles categorized by topics like Sports, Education, and more. Styled with Bootstrap for a clean and intuitive UI.",
+  tags: [
+    {
+      name: "ReactJS",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "NewsAPI",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Bootstrap",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: NewsPortal, // Replace with your actual image import
+  source_link: "https://news-portal-web-application.vercel.app/",
+  source_code_link: "https://github.com/ankit-ya/NewsPortal-Web-Application",
+}
+
+
   ];
   
   export const otherProject = [
@@ -174,7 +226,7 @@ import {
       icon: "https://shramii.com/SHRAMII.png",
       iconBg: "#383E56",
       date: "Feb 2025 - July 2025",
-      link: "",
+    
       points: [
         "Contributed to the development of responsive web interfaces using React.js, Vite, and Tailwind CSS, ensuring cross-device compatibility.",
         "Built and maintained employee and employer dashboards featuring modules like task management, payroll, shift planning, and punch clock attendance.",
@@ -182,6 +234,7 @@ import {
         "Utilized modern development tools such as Vite and VS Code to build, preview, and debug web interfaces efficientl  during the development lifecycle.",
       ],
       link: "https://github.com/Shiv7/shramikFEModule/tree/feature/dashboard-responsive",
+ 
     },
     
   ];

@@ -17,6 +17,8 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
+import DailyEarn from "./DailyEarn.png";
+import NewsPortal from "./NewPortal.png";
 
 import holopin from "./holopin.png";
 import hf from "./hf.svg";
@@ -26,6 +28,7 @@ import school from "./school.png";
 import schoolll from "./schoolll.png";
 
 import arr from "./arr.png";
+import org from "./org.jpg";
 
 
 
@@ -50,10 +53,12 @@ export {
   git,
   html,
   javascript,
+  org,
   mongodb,
   nodejs,
   reactjs,
   tailwind,
+  NewsPortal,
   threejs,
   hf,holopin,
   bny,
@@ -62,6 +67,7 @@ export {
   school,
   schoolll,
   arr,
+  DailyEarn,
 
   aarti,
 
